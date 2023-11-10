@@ -5,7 +5,7 @@ on: [workflow_dispatch]
 
 defaults:
   run:
-    working-directory: ./main/gamerater
+    working-directory: ./gamerater
 
 jobs:
   test:
