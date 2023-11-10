@@ -3,6 +3,10 @@ name: GameRater CI
 
 on: [workflow_dispatch]
 
+defaults:
+  run:
+    working-directory: ./main/gamerater
+
 jobs:
   test:
     name: Test
