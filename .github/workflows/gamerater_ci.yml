@@ -41,4 +41,4 @@ jobs:
             -- <your-test-command> # Run your automation tool; note space after --
         env:
           TESTMO_URL: ${{ secrets.https://gamerater.testmo.net/ }}
-          TESTMO_TOKEN: ${{ secrets.testmo_api_eyJpdiI6ImllemEzendUWEJTR05QSnl0a0UwT1E9PSIsInZhbHVlIjoibnViekJhVWREakhLMGtkNFlhZVFMZklkQXJUaVF1MmtRSDh5dGRtYldVMD0iLCJtYWMiOiI3NGYzZmIzMDFhMjA4OGFkYWFiNGM5NGM0NzZmY2EyYjU2MmQwODcyOTJhOTE3YTdhMjEyZTA1NjZmYjk4Y2M1IiwidGFnIjoiIn0= }}
+          TESTMO_TOKEN: ${{ $TESTMO_TOKEN }}
