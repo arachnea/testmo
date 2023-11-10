@@ -32,7 +32,7 @@ jobs:
       # Run automated tests and report results to Testmo
       - run: |
           npx testmo automation:run:submit \
-            --instance "$TESTMO_URL" \
+            --instance "$https://gamerater.testmo.net/" \
             --project-id 1 \
             --name "Test run" \
             --source "frontend" \
@@ -40,5 +40,5 @@ jobs:
             --results results/*.xml \
             -- <your-test-command> # Run your automation tool; note space after --
         env:
-          TESTMO_URL: ${{ secrets.TESTMO_URL }}
-          TESTMO_TOKEN: ${{ secrets.TESTMO_TOKEN }}
+          TESTMO_URL: ${{ secrets.https://gamerater.testmo.net/ }}
+          TESTMO_TOKEN: ${{ secrets.testmo_api_eyJpdiI6ImllemEzendUWEJTR05QSnl0a0UwT1E9PSIsInZhbHVlIjoibnViekJhVWREakhLMGtkNFlhZVFMZklkQXJUaVF1MmtRSDh5dGRtYldVMD0iLCJtYWMiOiI3NGYzZmIzMDFhMjA4OGFkYWFiNGM5NGM0NzZmY2EyYjU2MmQwODcyOTJhOTE3YTdhMjEyZTA1NjZmYjk4Y2M1IiwidGFnIjoiIn0= }}
